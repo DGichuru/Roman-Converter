@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Roman Numerals</title>
+        <script src="js/scripts.js"></script>
+        <link href="css/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container">
+
+            <div id="top">
+                <img alt="Roman Numerals" src="img/roman.jpg"/>
+            </div>
+            <div id="middle">
+        <fieldset>
+            <div>
+                <h2>Convert number to Roman numerals</h2>
+            </div>
+            <div class="form-group">
+                <input autofocus class="form-control" name="number" id = "number" placeholder="Whole Numeric Value" type="text" onKeyDown="enterListener(event);"/>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="button" class="btn btn-default" value="click me" onclick="getRomanNumeric();">Convert</button>
+            </div>
+            <div class="form-group">
+                <input type="text" id="answer" name="answer" value=""/>
+            </div>
+        </fieldset>
+            </div>
+            <div id="bottom">
+                Copyright &#169; Daniel Gichuru
+            </div>
+        </div>    
+    </body>
+
+</html>    
